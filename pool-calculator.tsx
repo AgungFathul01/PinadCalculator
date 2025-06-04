@@ -89,7 +89,7 @@ export default function Component() {
                       type="number"
                       value={pooledMonad}
                       onChange={(e) =>
-  setPooledPoints(Number(e.target.value.replace(/[.,]/g, "")))
+  setpooledMonad(Number(e.target.value.replace(/[.,]/g, "")))
 }
                       className="h-14 text-lg bg-slate-700/50 border-slate-600/50 text-slate-100 placeholder:text-slate-400 focus:border-blue-500 focus:ring-blue-500/20"
                     />
@@ -112,7 +112,7 @@ export default function Component() {
                       type="number"
                       value={depositedPoints}
                       onChange={(e) =>
-  setPooledPoints(Number(e.target.value.replace(/[.,]/g, "")))
+  setdepositedPoints(Number(e.target.value.replace(/[.,]/g, "")))
 }
                       className="h-14 text-lg bg-slate-700/50 border-slate-600/50 text-slate-100 placeholder:text-slate-400 focus:border-purple-500 focus:ring-purple-500/20"
                     />
@@ -123,7 +123,7 @@ export default function Component() {
                       type="number"
                       value={depositedMonad}
                       onChange={(e) =>
-  setPooledPoints(Number(e.target.value.replace(/[.,]/g, "")))
+  setdepositedMonad(Number(e.target.value.replace(/[.,]/g, "")))
 }
                       className="h-14 text-lg bg-slate-700/50 border-slate-600/50 text-slate-100 placeholder:text-slate-400 focus:border-purple-500 focus:ring-purple-500/20"
                     />
