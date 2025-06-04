@@ -77,7 +77,9 @@ export default function Component() {
                     <Input
                       type="number"
                       value={pooledPoints}
-                      onChange={(e) => setPooledPoints(Number(e.target.value))}
+                      onChange={(e) =>
+  setPooledPoints(Number(e.target.value.replace(/[.,]/g, "")))
+}
                       className="h-14 text-lg bg-slate-700/50 border-slate-600/50 text-slate-100 placeholder:text-slate-400 focus:border-blue-500 focus:ring-blue-500/20"
                     />
                   </div>
@@ -86,7 +88,9 @@ export default function Component() {
                     <Input
                       type="number"
                       value={pooledMonad}
-                      onChange={(e) => setPooledMonad(Number(e.target.value))}
+                      onChange={(e) =>
+  setPooledPoints(Number(e.target.value.replace(/[.,]/g, "")))
+}
                       className="h-14 text-lg bg-slate-700/50 border-slate-600/50 text-slate-100 placeholder:text-slate-400 focus:border-blue-500 focus:ring-blue-500/20"
                     />
                   </div>
@@ -107,7 +111,9 @@ export default function Component() {
                     <Input
                       type="number"
                       value={depositedPoints}
-                      onChange={(e) => setDepositedPoints(Number(e.target.value))}
+                      onChange={(e) =>
+  setPooledPoints(Number(e.target.value.replace(/[.,]/g, "")))
+}
                       className="h-14 text-lg bg-slate-700/50 border-slate-600/50 text-slate-100 placeholder:text-slate-400 focus:border-purple-500 focus:ring-purple-500/20"
                     />
                   </div>
@@ -116,7 +122,9 @@ export default function Component() {
                     <Input
                       type="number"
                       value={depositedMonad}
-                      onChange={(e) => setDepositedMonad(Number(e.target.value))}
+                      onChange={(e) =>
+  setPooledPoints(Number(e.target.value.replace(/[.,]/g, "")))
+}
                       className="h-14 text-lg bg-slate-700/50 border-slate-600/50 text-slate-100 placeholder:text-slate-400 focus:border-purple-500 focus:ring-purple-500/20"
                     />
                   </div>
